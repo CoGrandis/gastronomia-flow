@@ -20,6 +20,9 @@ All colors MUST be HSL.
     /* Olive green primary */
     --primary: 75 35% 35%;
     --primary-foreground: 40 20% 97%;
+    --primary-light: 75 40% 45%;
+    --primary-lighter: 75 45% 60%;
+    --primary-dark: 75 30% 25%;
 
     /* Warm neutral secondary */
     --secondary: 40 15% 90%;
@@ -31,6 +34,11 @@ All colors MUST be HSL.
     /* Terracotta accent */
     --accent: 15 60% 55%;
     --accent-foreground: 0 0% 100%;
+    
+    /* Green variants for landing */
+    --green-soft: 75 40% 85%;
+    --green-medium: 75 45% 50%;
+    --green-glow: 75 50% 70%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
@@ -52,10 +60,14 @@ All colors MUST be HSL.
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(75 35% 35%), hsl(75 40% 45%));
     --gradient-warm: linear-gradient(180deg, hsl(40 20% 98%), hsl(40 15% 93%));
+    --gradient-hero: linear-gradient(135deg, hsl(75 45% 60% / 0.1), hsl(75 35% 35% / 0.05));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(75 40% 98%));
 
     /* Shadows */
     --shadow-card: 0 2px 8px hsl(30 15% 15% / 0.08);
     --shadow-elevated: 0 4px 16px hsl(30 15% 15% / 0.12);
+    --shadow-soft: 0 8px 24px hsl(75 35% 35% / 0.08);
+    --shadow-glow: 0 0 40px hsl(75 50% 70% / 0.15);
 
     /* Sidebar */
     --sidebar-background: 75 30% 25%;
@@ -80,9 +92,17 @@ All colors MUST be HSL.
 
     --primary: 75 40% 50%;
     --primary-foreground: 30 15% 10%;
+    --primary-light: 75 45% 60%;
+    --primary-lighter: 75 50% 70%;
+    --primary-dark: 75 35% 40%;
 
     --secondary: 30 10% 20%;
     --secondary-foreground: 40 20% 95%;
+    
+    /* Green variants for landing */
+    --green-soft: 75 30% 30%;
+    --green-medium: 75 40% 50%;
+    --green-glow: 75 50% 60%;
 
     --muted: 30 10% 18%;
     --muted-foreground: 40 10% 60%;
@@ -105,9 +125,13 @@ All colors MUST be HSL.
 
     --gradient-primary: linear-gradient(135deg, hsl(75 40% 45%), hsl(75 45% 55%));
     --gradient-warm: linear-gradient(180deg, hsl(30 15% 15%), hsl(30 10% 18%));
+    --gradient-hero: linear-gradient(135deg, hsl(75 35% 25% / 0.2), hsl(75 45% 35% / 0.1));
+    --gradient-card: linear-gradient(145deg, hsl(30 15% 15%), hsl(75 20% 18%));
 
     --shadow-card: 0 2px 8px hsl(0 0% 0% / 0.3);
     --shadow-elevated: 0 4px 16px hsl(0 0% 0% / 0.4);
+    --shadow-soft: 0 8px 24px hsl(75 35% 20% / 0.3);
+    --shadow-glow: 0 0 40px hsl(75 50% 50% / 0.2);
 
     --sidebar-background: 30 15% 10%;
     --sidebar-foreground: 40 20% 90%;
